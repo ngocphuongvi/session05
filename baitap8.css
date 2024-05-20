@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-div {
+    width: 500px;
+    border: 2px solid #d0cecef8;
+}
+
+h2 {
+    padding: 10px 13px;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: Arial;
+}
+
+.second-div {
+    font-family: Arial;
+    border: 1px solid #eaeaea;
+    padding: 13px;
+}
+
+p {
+    padding: 15px;
+    padding-left: 350px;
+}
+
+button {
+    padding: 5px;
+    background-color: #0470fb;
+    color: white;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.close {
+    margin-left: 360px;
+    background-color: white;
+    color: #949494;
+    font-size: larger;
+}

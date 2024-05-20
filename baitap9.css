@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-div {
+    font-family: Arial;
+    font-size: 15px;
+    border: 1px solid #e4e9f1;
+    border-radius: 10px;
+}
+
+.accordion {
+    background-color: #e8f2ff;
+    color: #1a6bdf;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #e4e9f1;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 15px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.accordion:after {
+    content: '\22C1';
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: '\22C0';
+}
+
+a {
+    color: #c96891;
+}
